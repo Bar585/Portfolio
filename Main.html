@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodrigo Mendes — Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header class="navbar" id="home">
+        <a href="Main.html" class="logo" data-home>Rodrigo Mendes</a>
+        <nav class="nav-links">
+            <a href="Main.html" data-home data-section="home" class="active">Home</a>
+            <a href="#projects" data-section="projects">Projects</a>
+            <a href="About.html" data-section="about">About</a>
+        </nav>
+    </header>
+
+    <main class="layout-grid">
+        <section class="hero-l-shape" id="hero">
+            <div class="hero-carousel">
+                <div class="carousel-track">
+                    <div class="slide is-active" style="background-image: url('https://img.itch.zone/aW1nLzI4NTY4ODkyLmpwZw==/original/5SW6a5.jpg');">
+                        <canvas class="video-backdrop" data-poster="https://img.itch.zone/aW1nLzI4NTY4ODkyLmpwZw==/original/5SW6a5.jpg" aria-hidden="true"></canvas>
+                        <video class="video-foreground" muted loop playsinline preload="none" poster="https://img.itch.zone/aW1nLzI4NTY4ODkyLmpwZw==/original/5SW6a5.jpg">
+                            <source src="video/ShatteredGuilt.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="slide" style="background-image: url('https://img.itch.zone/aW1hZ2UvMzE1MjQ5Ni8xODgzMDI5My5wbmc=/347x500/t0qHZP.png');">
+                        <canvas class="video-backdrop" data-poster="https://img.itch.zone/aW1hZ2UvMzE1MjQ5Ni8xODgzMDI5My5wbmc=/347x500/t0qHZP.png" aria-hidden="true"></canvas>
+                        <video class="video-foreground" muted loop playsinline preload="none" poster="https://img.itch.zone/aW1hZ2UvMzE1MjQ5Ni8xODgzMDI5My5wbmc=/347x500/t0qHZP.png">
+                            <source src="video/Temple.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="hero-overlay"></div>
+            </div>
+
+            <div class="hero-content">
+                <h1>Rodrigo Mendes</h1>
+                <p>Game Developer &amp; Programmer. Focused on gameplay mechanics, interactive systems, and rapid prototyping.</p>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/rodrigo-mendes-472a92449/?locale=pt" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/Bar585" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <a href="https://modeymos.itch.io" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-itch-io"></i> Itch.io
+                </a>
+            </div>
+        </section>
+
+        <a class="game-card card-1" id="projects" href="https://crowned-cattle.itch.io/new-lambfield-investigation-game" target="_blank" rel="noopener">
+            <img src="https://img.itch.zone/aW1nLzI4NTY4ODkyLmpwZw==/original/5SW6a5.jpg" alt="New Lambfield Investigation Game">
+            <div class="card-info">
+                <h3>New Lambfield Investigation Game</h3>
+                <div class="tags"><span>Investigation</span><span>Narrative</span></div>
+                <p class="hover-desc">An investigation game set in New Lambfield, a town where certain people can alter reality. Play as Riven Prosper inside a hotel where inexplicable events unfold, connecting clues to uncover the entity behind the mystery.</p>
+            </div>
+        </a>
+
+        <div class="projects-row">
+            <a class="game-card card-2" style="--art: url('https://img.itch.zone/aW1hZ2UvMzE1MjQ5Ni8xODgzMDI5My5wbmc=/347x500/t0qHZP.png');" href="https://kikogamedev.itch.io/temple-of-echoes" target="_blank" rel="noopener">
+                <img src="https://img.itch.zone/aW1hZ2UvMzE1MjQ5Ni8xODgzMDI5My5wbmc=/347x500/t0qHZP.png" alt="Temple of Echoes">
+                <div class="card-info">
+                    <h3>Temple of Echoes</h3>
+                    <div class="tags"><span>Puzzle</span><span>Combat</span></div>
+                    <p class="hover-desc">Escape the temple, solve puzzles, and defeat enemies! Help Bab break free by wielding a magical orb to reach inaccessible areas, push obstacles, and fight off those trying to trap him.</p>
+                </div>
+            </a>
+
+            <a class="game-card card-3" style="--art: url('https://img.itch.zone/aW1hZ2UvMzI1ODM0NC8xOTQ5ODU1OS5wbmc=/347x500/urKzVh.png');" href="https://tubyas.itch.io/notimeforrent" target="_blank" rel="noopener">
+                <img src="https://img.itch.zone/aW1hZ2UvMzI1ODM0NC8xOTQ5ODU1OS5wbmc=/347x500/urKzVh.png" alt="No Time For Rent!">
+                <div class="card-info">
+                    <h3>No Time For Rent!</h3>
+                    <div class="tags"><span>Bullet Hell</span><span>GB Studio</span><span>HTML5</span></div>
+                    <p class="hover-desc">Juan finds an apartment with suspiciously cheap rent and jumps at the chance—unaware that it is haunted. Dodge relentless creature attacks in a self-aware comedy filled with terrors inspired by Iberian folklore.</p>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <footer class="site-footer">&copy; 2026 Rodrigo Mendes</footer>
+    <script src="script.js"></script>
+</body>
+</html>
